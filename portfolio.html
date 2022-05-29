@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav header__nav" lang="en">
+          <a href="./index.html" class="logo nav__logo"
+            >Web <span class="logo__half">Studio</span></a
+          >
+          <ul class="nav__page">
+            <li class="nav__list">
+              <a href="./index.html" class="nav__link">Студія</a>
+            </li>
+            <li class="nav__list">
+              <a href="./portfolio.html" class="nav__link">Портфоліо</a>
+            </li>
+            <li class="nav__list">
+              <a href="" class="nav__link">Котакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact">
+          <li class="contact__list" lang="en">
+            <svg class="contact__icon" width="16" height="20">
+              <use href="./images/icons.svg#icon-convert"></use>
+            </svg>
+            <a href="mailto:info@devstudio.com" class="contact__linc"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contact__list">
+            <svg class="contact__icon" width="10" height="16">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
+            <a href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="main-portfolio">
+      <section class="portfolio">
+        <div class="container">
+          <ul class="filter portfolio__filter">
+            <li class="filter__item">
+              <button class="filter__button button">Всі</button>
+            </li>
+            <li class="filter__item">
+              <button class="filter__button button">Веб-сайти</button>
+            </li>
+            <li class="filter__item">
+              <button class="filter__button button">Застосунки</button>
+            </li>
+            <li class="filter__item">
+              <button class="filter__button button">Дизайн</button>
+            </li>
+            <li class="filter__item">
+              <button class="filter__button button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="portfolio__list">
+            <!-- Технокряк -->
+            <li class="portfolio__item">
+              <div class="portfolio__thumb">
+                <img
+                  class="portfolio__image"
+                  src="./images/project-1.jpg"
+                  alt="сторінка на лептопі"
+                  width="370"
+                  height="294"
+                />
+                <p class="portfolio__overlay">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="portfolio__desc">
+                <h3 class="portfolio__subtitle">Технокряк</h3>
+                <p class="portfolio__text">Веб-сайт</p>
+              </div>
+            </li>
+            <!-- Постер New Orlean vs Golden Star -->
+            <li class="portfolio__item">
+              <div class="portfolio__thumb">
+                <img
+                  class="portfolio__image"
+                  src="./images/project-2.jpg"
+                  alt="боротьба двух баскетболістів"
+                  width="370"
+                  height="294"
+                />
+                <p class="portfolio__overlay">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="portfolio__desc">
+                <h3 class="portfolio__subtitle">
+                  Постер <span lang="en">New Orlean vs Golden Star</span>
+                </h3>
+                <p class="portfolio__text">Дизайн</p>
+              </div>
+            </li>
+            <!-- Ресторан Seafood -->
+            <li class="portfolio__item">
+              <div class="portfolio__thumb">
+                <img
+                  class="portfolio__image"
+                  src="./images/project-3.jpg"
+                  alt="риба судак"
+                  width="370"
+                  height="294"
+                />
+                <p class="portfolio__overlay">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="portfolio__desc">
+                <h3 class="portfolio__subtitle">
+                  Ресторан <span lang="en">Seafood</span>
+                </h3>
+                <p class="portfolio__text">Застосунок</p>
+              </div>
+            </li>
+            <!-- Проект Prime -->
+            <li class="portfolio__item">
+              <div class="portfolio__thumb">
+                <img
+                  class="portfolio__image"
+                  src="./images/project-4.jpg"
+                  alt="чорні навушники"
+                  width="370"
+                  height="294"
+                />
+                <p class="portfolio__overlay">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="portfolio__desc">
+                <h3 class="portfolio__subtitle">
+                  Проект <span lang="en">Prime</span>
+                </h3>
+                <p class="portfolio__text">Маркетинг</p>
+              </div>
+            </li>
+            <!-- Проект Boxes -->
+            <li class="portfolio__item">
+              <div class="portfolio__thumb">
+                <img
+                  class="portfolio__image"
+                  src="./images/project-5.jpg"
+                  alt="дві коробки"
+                  width="370"
+                  height="294"
+                />
+                <p class="portfolio__overlay">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="portfolio__desc">
+                <h3 class="portfolio__subtitle">
+                  Проект <span lang="en">Boxes</span>
+                </h3>
+                <p class="portfolio__text">Маркетинг</p>
+              </div>
+            </li>
+            <!-- Inspiration has no Borders  -->
+            <li class="portfolio__item">
+              <div class="portfolio__thumb">
+                <img
+                  class="portfolio__image"
+                  src="./images/project-6.jpg"
+                  alt="монітор з відкритим сайтом"
+                  width="370"
+                  height="294"
+                />
+                <p class="portfolio__overlay">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="portfolio__desc">
+                <h3 class="portfolio__subtitle" lang="en">
+                  Inspiration has no Borders
+                </h3>
+                <p class="portfolio__text">Веб-сайт</p>
+              </div>
+            </li>
+            <!-- Издание Limited Edition  -->
+            <li class="portfolio__item">
+              <div class="portfolio__thumb">
+                <img
+                  class="portfolio__image"
+                  src="./images/project-7.jpg"
+                  alt="книжка"
+                  width="370"
+                  height="294"
+                />
+                <p class="portfolio__overlay">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="portfolio__desc">
+                <h3 class="portfolio__subtitle">
+                  Видання <span lang="en">Limited Edition</span>
+                </h3>
+                <p class="portfolio__text">Дизайн</p>
+              </div>
+            </li>
+            <!-- Проект LAB  -->
+            <li class="portfolio__item">
+              <div class="portfolio__thumb">
+                <img
+                  class="portfolio__image"
+                  src="./images/project-8.jpg"
+                  alt="бірка"
+                  width="370"
+                  height="294"
+                />
+                <p class="portfolio__overlay">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="portfolio__desc">
+                <h3 class="portfolio__subtitle">
+                  Проект <span lang="en">LAB</span>
+                </h3>
+                <p class="portfolio__text">Маркетинг</p>
+              </div>
+            </li>
+            <!-- Growing Business  -->
+            <li class="portfolio__item">
+              <div class="portfolio__thumb">
+                <img
+                  class="portfolio__image"
+                  src="./images/project-9.jpg"
+                  alt="Руки друкують на ноутбуці"
+                  width="370"
+                  height="294"
+                />
+                <p class="portfolio__overlay">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="portfolio__desc">
+                <h3 class="portfolio__subtitle" lang="en">Growing Business</h3>
+                <p class="portfolio__text">Застосунок</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
